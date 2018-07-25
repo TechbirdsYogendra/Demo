@@ -9,15 +9,55 @@
 import UIKit
 import CoreData
 
+enum ShortcutItmeType: String {
+    case OpenImagePage = "OpenImagePage"
+    case OpenLoginPage = "OpenLoginPage"
+    case OpenCreateBmojiPage = "OpenCreateBmojiPage"
+    init () {
+        self = .OpenImagePage
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        addQuickActions(application: application)
         return true
+        
+    }
+    
+    func addQuickActions(application: UIApplication) {
+        
+        let openImagePageItem = UIApplicationShortcutItem(type: ShortcutItmeType.OpenImagePage.rawValue, localizedTitle: "Go", localizedSubtitle: "Image Page", icon: UIApplicationShortcutIcon.init(type: .love), userInfo: nil)
+        
+        let openLoginPageItem = UIApplicationShortcutItem(type: ShortcutItmeType.OpenLoginPage.rawValue, localizedTitle: "Go", localizedSubtitle: "Login Page", icon: UIApplicationShortcutIcon.init(type: .love), userInfo: nil)
+        
+        let openCreateBmojiPageItem = UIApplicationShortcutItem(type: ShortcutItmeType.OpenCreateBmojiPage.rawValue, localizedTitle: "Go", localizedSubtitle: "Create Bmoji Page", icon: UIApplicationShortcutIcon.init(type: .love), userInfo: nil)
+        
+        application.shortcutItems = [openImagePageItem, openLoginPageItem, openCreateBmojiPageItem]
+    }
+    
+    func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
+        
+        let type = ShortcutItmeType(rawValue: shortcutItem.type)!
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var initViewController: UIViewController!
+        switch type {
+        case ShortcutItmeType.OpenImagePage:
+            initViewController  = storyBoard.instantiateViewController(withIdentifier: "LoadImagesViewController")
+        case ShortcutItmeType.OpenLoginPage:
+            initViewController  = storyBoard.instantiateViewController(withIdentifier: "LoginViewController")
+        case .OpenCreateBmojiPage:
+           initViewController  = storyBoard.instantiateViewController(withIdentifier: "CreateBmojiViewController")
+        }
+        self.window?.rootViewController = initViewController
+        self.window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

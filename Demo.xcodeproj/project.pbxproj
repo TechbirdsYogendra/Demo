@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51232A7620F5CD8E0070736F /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51232A7520F5CD8E0070736F /* TaskManager.swift */; };
+		516E00A620F48F09002C56C3 /* Buzzable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00A520F48F09002C56C3 /* Buzzable.swift */; };
+		516E00A820F49009002C56C3 /* Popable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00A720F49009002C56C3 /* Popable.swift */; };
+		516E00AA20F4906F002C56C3 /* BuzzableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00A920F4906F002C56C3 /* BuzzableButton.swift */; };
+		516E00AC20F4909A002C56C3 /* BuzzableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00AB20F4909A002C56C3 /* BuzzableImageView.swift */; };
+		516E00AE20F491E1002C56C3 /* BuzzablePopableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00AD20F491E1002C56C3 /* BuzzablePopableLabel.swift */; };
+		516E00B020F49576002C56C3 /* BuzzableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00AF20F49576002C56C3 /* BuzzableTextField.swift */; };
+		516E00B220F49653002C56C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E00B120F49653002C56C3 /* LoginViewController.swift */; };
+		518876C920F380290060627A /* LoadImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518876C820F380290060627A /* LoadImagesViewController.swift */; };
+		518876CB20F3814B0060627A /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518876CA20F3814B0060627A /* ImageCollectionViewCell.swift */; };
+		518876CD20F3874E0060627A /* WebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518876CC20F3874D0060627A /* WebServiceHandler.swift */; };
+		518876CF20F389FB0060627A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518876CE20F389FB0060627A /* Photo.swift */; };
+		518C74EF20F8C433008E52C9 /* CreateBmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518C74EE20F8C432008E52C9 /* CreateBmojiViewController.swift */; };
+		51BD075F20DA629300F2BDC1 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD075E20DA629300F2BDC1 /* Messages.framework */; };
+		51BD076220DA629300F2BDC1 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD076120DA629300F2BDC1 /* MessagesViewController.swift */; };
+		51BD076520DA629300F2BDC1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD076320DA629300F2BDC1 /* MainInterface.storyboard */; };
+		51BD076720DA629600F2BDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BD076620DA629600F2BDC1 /* Assets.xcassets */; };
+		51BD076B20DA629600F2BDC1 /* iMessageDemo.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51BD075C20DA629300F2BDC1 /* iMessageDemo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51BD077220DA6BEA00F2BDC1 /* Bmoji1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD076F20DA6BEA00F2BDC1 /* Bmoji1.png */; };
+		51BD077320DA6BEA00F2BDC1 /* Bmoji2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD077020DA6BEA00F2BDC1 /* Bmoji2.png */; };
+		51BD077420DA6BEA00F2BDC1 /* Bmoji3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD077120DA6BEA00F2BDC1 /* Bmoji3.png */; };
+		51BD077620DA6C6600F2BDC1 /* MojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD077520DA6C6600F2BDC1 /* MojiCollectionViewCell.swift */; };
+		51C314F420FC9D4C007C93F5 /* ImageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C314F320FC9D4C007C93F5 /* ImageDetailsViewController.swift */; };
 		51ED5D7020D38ACB005570C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED5D6F20D38ACB005570C0 /* AppDelegate.swift */; };
 		51ED5D7220D38ACB005570C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED5D7120D38ACB005570C0 /* ViewController.swift */; };
 		51ED5D7520D38ACB005570C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51ED5D7320D38ACB005570C0 /* Main.storyboard */; };
@@ -15,7 +38,55 @@
 		51ED5D7D20D38AF3005570C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51ED5D7B20D38AF3005570C0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		51BD076920DA629600F2BDC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51ED5D6420D38AC9005570C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BD075B20DA629300F2BDC1;
+			remoteInfo = iMessageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51ED5D9120D38B58005570C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				51BD076B20DA629600F2BDC1 /* iMessageDemo.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		51232A7520F5CD8E0070736F /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		516E00A520F48F09002C56C3 /* Buzzable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzzable.swift; sourceTree = "<group>"; };
+		516E00A720F49009002C56C3 /* Popable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popable.swift; sourceTree = "<group>"; };
+		516E00A920F4906F002C56C3 /* BuzzableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzableButton.swift; sourceTree = "<group>"; };
+		516E00AB20F4909A002C56C3 /* BuzzableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzableImageView.swift; sourceTree = "<group>"; };
+		516E00AD20F491E1002C56C3 /* BuzzablePopableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzablePopableLabel.swift; sourceTree = "<group>"; };
+		516E00AF20F49576002C56C3 /* BuzzableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzableTextField.swift; sourceTree = "<group>"; };
+		516E00B120F49653002C56C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		518876C820F380290060627A /* LoadImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImagesViewController.swift; sourceTree = "<group>"; };
+		518876CA20F3814B0060627A /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		518876CC20F3874D0060627A /* WebServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
+		518876CE20F389FB0060627A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		518C74EE20F8C432008E52C9 /* CreateBmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBmojiViewController.swift; sourceTree = "<group>"; };
+		51BD075C20DA629300F2BDC1 /* iMessageDemo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iMessageDemo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BD075E20DA629300F2BDC1 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		51BD076120DA629300F2BDC1 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		51BD076420DA629300F2BDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		51BD076620DA629600F2BDC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BD076820DA629600F2BDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD076F20DA6BEA00F2BDC1 /* Bmoji1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bmoji1.png; sourceTree = "<group>"; };
+		51BD077020DA6BEA00F2BDC1 /* Bmoji2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bmoji2.png; sourceTree = "<group>"; };
+		51BD077120DA6BEA00F2BDC1 /* Bmoji3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bmoji3.png; sourceTree = "<group>"; };
+		51BD077520DA6C6600F2BDC1 /* MojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		51C314F320FC9D4C007C93F5 /* ImageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewController.swift; sourceTree = "<group>"; };
 		51ED5D6C20D38ACA005570C0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51ED5D6F20D38ACB005570C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51ED5D7120D38ACB005570C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +98,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		51BD075920DA629300F2BDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD075F20DA629300F2BDC1 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51ED5D6920D38ACA005570C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +116,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		516E00A420F48E9D002C56C3 /* LoadImages */ = {
+			isa = PBXGroup;
+			children = (
+				518876C820F380290060627A /* LoadImagesViewController.swift */,
+				518876CA20F3814B0060627A /* ImageCollectionViewCell.swift */,
+				51C314F320FC9D4C007C93F5 /* ImageDetailsViewController.swift */,
+				518876CE20F389FB0060627A /* Photo.swift */,
+				51232A7520F5CD8E0070736F /* TaskManager.swift */,
+			);
+			path = LoadImages;
+			sourceTree = "<group>";
+		};
+		516E00B320F4A95C002C56C3 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				516E00B120F49653002C56C3 /* LoginViewController.swift */,
+				516E00A520F48F09002C56C3 /* Buzzable.swift */,
+				516E00A720F49009002C56C3 /* Popable.swift */,
+				516E00A920F4906F002C56C3 /* BuzzableButton.swift */,
+				516E00AB20F4909A002C56C3 /* BuzzableImageView.swift */,
+				516E00AD20F491E1002C56C3 /* BuzzablePopableLabel.swift */,
+				516E00AF20F49576002C56C3 /* BuzzableTextField.swift */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
+		51BD075D20DA629300F2BDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51BD075E20DA629300F2BDC1 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51BD076020DA629300F2BDC1 /* iMessageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51BD076F20DA6BEA00F2BDC1 /* Bmoji1.png */,
+				51BD077020DA6BEA00F2BDC1 /* Bmoji2.png */,
+				51BD077120DA6BEA00F2BDC1 /* Bmoji3.png */,
+				51BD076120DA629300F2BDC1 /* MessagesViewController.swift */,
+				51BD077520DA6C6600F2BDC1 /* MojiCollectionViewCell.swift */,
+				51BD076320DA629300F2BDC1 /* MainInterface.storyboard */,
+				51BD076620DA629600F2BDC1 /* Assets.xcassets */,
+				51BD076820DA629600F2BDC1 /* Info.plist */,
+			);
+			path = iMessageDemo;
+			sourceTree = "<group>";
+		};
 		51ED5D6320D38AC9005570C0 = {
 			isa = PBXGroup;
 			children = (
 				51ED5D6E20D38ACA005570C0 /* Demo */,
+				51BD076020DA629300F2BDC1 /* iMessageDemo */,
+				51BD075D20DA629300F2BDC1 /* Frameworks */,
 				51ED5D6D20D38ACA005570C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				51ED5D6C20D38ACA005570C0 /* Demo.app */,
+				51BD075C20DA629300F2BDC1 /* iMessageDemo.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +189,11 @@
 			children = (
 				51ED5D6F20D38ACB005570C0 /* AppDelegate.swift */,
 				51ED5D7120D38ACB005570C0 /* ViewController.swift */,
+				516E00A420F48E9D002C56C3 /* LoadImages */,
+				518876CC20F3874D0060627A /* WebServiceHandler.swift */,
+				516E00B320F4A95C002C56C3 /* POP */,
 				51ED5D7320D38ACB005570C0 /* Main.storyboard */,
+				518C74EE20F8C432008E52C9 /* CreateBmojiViewController.swift */,
 				51ED5D7920D38AF3005570C0 /* Assets.xcassets */,
 				51ED5D7B20D38AF3005570C0 /* LaunchScreen.storyboard */,
 				51ED5D7E20D38AF4005570C0 /* Info.plist */,
@@ -70,6 +205,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		51BD075B20DA629300F2BDC1 /* iMessageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BD076E20DA629600F2BDC1 /* Build configuration list for PBXNativeTarget "iMessageDemo" */;
+			buildPhases = (
+				51BD075820DA629300F2BDC1 /* Sources */,
+				51BD075920DA629300F2BDC1 /* Frameworks */,
+				51BD075A20DA629300F2BDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMessageDemo;
+			productName = iMessageDemo;
+			productReference = 51BD075C20DA629300F2BDC1 /* iMessageDemo.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
 		51ED5D6B20D38ACA005570C0 /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51ED5D8120D38AF4005570C0 /* Build configuration list for PBXNativeTarget "Demo" */;
@@ -77,10 +229,12 @@
 				51ED5D6820D38ACA005570C0 /* Sources */,
 				51ED5D6920D38ACA005570C0 /* Frameworks */,
 				51ED5D6A20D38ACA005570C0 /* Resources */,
+				51ED5D9120D38B58005570C0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				51BD076A20DA629600F2BDC1 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -97,6 +251,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Yogendra Singh";
 				TargetAttributes = {
+					51BD075B20DA629300F2BDC1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
 					51ED5D6B20D38ACA005570C0 = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -116,11 +273,24 @@
 			projectRoot = "";
 			targets = (
 				51ED5D6B20D38ACA005570C0 /* Demo */,
+				51BD075B20DA629300F2BDC1 /* iMessageDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		51BD075A20DA629300F2BDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD077320DA6BEA00F2BDC1 /* Bmoji2.png in Resources */,
+				51BD077420DA6BEA00F2BDC1 /* Bmoji3.png in Resources */,
+				51BD076720DA629600F2BDC1 /* Assets.xcassets in Resources */,
+				51BD076520DA629300F2BDC1 /* MainInterface.storyboard in Resources */,
+				51BD077220DA6BEA00F2BDC1 /* Bmoji1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51ED5D6A20D38ACA005570C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,19 +304,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		51BD075820DA629300F2BDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD076220DA629300F2BDC1 /* MessagesViewController.swift in Sources */,
+				51BD077620DA6C6600F2BDC1 /* MojiCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51ED5D6820D38ACA005570C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516E00B220F49653002C56C3 /* LoginViewController.swift in Sources */,
+				518876CF20F389FB0060627A /* Photo.swift in Sources */,
+				516E00B020F49576002C56C3 /* BuzzableTextField.swift in Sources */,
 				51ED5D7820D38ACD005570C0 /* Demo.xcdatamodeld in Sources */,
+				516E00AA20F4906F002C56C3 /* BuzzableButton.swift in Sources */,
+				516E00AE20F491E1002C56C3 /* BuzzablePopableLabel.swift in Sources */,
+				518876CD20F3874E0060627A /* WebServiceHandler.swift in Sources */,
+				518876CB20F3814B0060627A /* ImageCollectionViewCell.swift in Sources */,
+				516E00A820F49009002C56C3 /* Popable.swift in Sources */,
+				516E00A620F48F09002C56C3 /* Buzzable.swift in Sources */,
 				51ED5D7220D38ACB005570C0 /* ViewController.swift in Sources */,
+				518876C920F380290060627A /* LoadImagesViewController.swift in Sources */,
+				51232A7620F5CD8E0070736F /* TaskManager.swift in Sources */,
 				51ED5D7020D38ACB005570C0 /* AppDelegate.swift in Sources */,
+				518C74EF20F8C433008E52C9 /* CreateBmojiViewController.swift in Sources */,
+				516E00AC20F4909A002C56C3 /* BuzzableImageView.swift in Sources */,
+				51C314F420FC9D4C007C93F5 /* ImageDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		51BD076A20DA629600F2BDC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BD075B20DA629300F2BDC1 /* iMessageDemo */;
+			targetProxy = 51BD076920DA629600F2BDC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		51BD076320DA629300F2BDC1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BD076420DA629300F2BDC1 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		51ED5D7320D38ACB005570C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +375,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		51BD076C20DA629600F2BDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7986UXK74B;
+				INFOPLIST_FILE = iMessageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ve.Demo.iMessageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51BD076D20DA629600F2BDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7986UXK74B;
+				INFOPLIST_FILE = iMessageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ve.Demo.iMessageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		51ED5D7F20D38AF4005570C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -217,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -283,10 +534,12 @@
 		51ED5D8220D38AF4005570C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7986UXK74B;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,10 +554,12 @@
 		51ED5D8320D38AF4005570C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7986UXK74B;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +574,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		51BD076E20DA629600F2BDC1 /* Build configuration list for PBXNativeTarget "iMessageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD076C20DA629600F2BDC1 /* Debug */,
+				51BD076D20DA629600F2BDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		51ED5D6720D38AC9005570C0 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
